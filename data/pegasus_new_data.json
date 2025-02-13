@@ -154,18 +154,18 @@
         {
             "tag": "no-response",
             "patterns": [
-                "",
+                " ",
                 "there is a person",
                 "there is someone.",
                 "it is raining.",
-                "it's raining",
+                "n",
                 "someone is there.",
-                "there is something.",
+                "vvvvvvvvvvvvv",
                 "there's something.",
                 "there is.",
                 "there is indeed.",
-                "there is a",
-                "there is more than one thing."
+                "xcaxxczcq",
+                "mbndjjfjfjsssf"
             ],
             "responses": [
                 "Sorry, I didn't understand you.",
