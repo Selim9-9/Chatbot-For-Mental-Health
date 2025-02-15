@@ -154,7 +154,7 @@
         {
             "tag": "no-response",
             "patterns": [
-                " ",
+                "a",
                 "there is a person",
                 "there is someone.",
                 "it is raining.",
