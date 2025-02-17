@@ -28,9 +28,9 @@ If you want to run the chatbot locally, please follow these steps:
 
 3. **Notebooks & Dataset on Kaggle:**  
    The two notebooks for this project and the new dataset generated are available on Kaggle:
-   - [Notebook 1](#)
-   - [Notebook 2](#)
-   - [Dataset](#)
+   - [Mental Health Chatbot](#)
+   - [Chatbot Data augmentation](#)
+   - [Mental Health Dataset](#)
 
 ## Data Augmentation
 
