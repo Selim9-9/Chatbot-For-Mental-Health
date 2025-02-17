@@ -2,10 +2,12 @@
 
 Welcome to the Chatbot Project! This repository contains code for a chatbot along with tools for local usage, data augmentation, and more.
 
-## Live Demo
+This is a multiclassification task of building chatbot model, not generative model, so the users' answers are fixed but the model will choose best responses to users' inputs.
+
+## Live Usage:
 
 - **Try the Chatbot Online:**  
-  [Chatbot Live Demo](#)  
+  [Chatbot Live website](#)  
   _*Link will be updated soon when the project is uploaded.*_
   
 ## Local Setup
@@ -18,7 +20,7 @@ If you want to run the chatbot locally, please follow these steps:
    _*Make sure to download this file before running the project.*_
 
 2. **Install Required Packages:**  
-   All necessary packages are listed in the `requirements.txt` file. You can install them by running the following command in your terminal (works for Windows, macOS, and Linux):
+   All necessary packages are listed in the `requirements.txt` file. You can install them by running the following command in your terminal:
 
    ```bash
    pip install -r requirements.txt
@@ -32,7 +34,9 @@ If you want to run the chatbot locally, please follow these steps:
 
 ## Data Augmentation
 
-This project also includes a `data_augmentation` folder where additional experiments were conducted in a separate environment.
+This project also includes a `data_augmentation` folder where additional experiments were conducted in a separate environment, to solve the problem of data imbalance, The original data comes from this [Link](https://www.kaggle.com/datasets/elvis23/mental-health-conversational-data).
+
+I used HuggingFace model to paraphrase patterns by pegasus model, model name is: "tuner007/pegasus_paraphrase", and run it locally with Visual Studio code editor, I used CUDA as I have a GPU for faster processing, so this step have a seperate vertual environment from the main model (each environment has its requirement file containning their packages).
 
 - **Install Data Augmentation Dependencies:**  
   The `data_augmentation` folder contains its own `requirements.txt` file. To install the necessary packages, run:
