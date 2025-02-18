@@ -4,6 +4,7 @@
 #
 #    pip-compile requirements.in
 #
+setuptools==75.1.0
 absl-py==2.1.0
     # via
     #   tensorboard
@@ -125,7 +126,7 @@ requests-oauthlib==2.0.0
     # via google-auth-oauthlib
 rsa==4.9
     # via google-auth
-setuptools==59.6.0
+
 scipy==1.10.1
     # via gensim
 six==1.17.0
@@ -160,7 +161,7 @@ werkzeug==3.0.6
     # via
     #   flask
     #   tensorboard
-wheel==0.45.1
+wheel==0.44.0
     # via
     #   astunparse
     #   tensorboard
