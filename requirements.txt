@@ -145,8 +145,7 @@ tensorflow==2.13.0
     # via -r requirements.in
 tensorflow-estimator==2.13.0
     # via tensorflow-intel
-tensorflow-intel==2.13.0
-    # via tensorflow
+
 tensorflow-io-gcs-filesystem==0.31.0
     # via tensorflow-intel
 termcolor==2.4.0
