@@ -47,7 +47,7 @@ I used the HuggingFace model to paraphrase patterns by pegasus model, model name
 
 ## Acknowledgements
 
-- A huge thanks to [AMIT]([https://openai.com/blog/chatgpt](https://www.linkedin.com/company/amit-learning/posts/?feedView=all) for the assistance and guidance during the development of this project.
+- A huge thanks to [AMIT](https://www.linkedin.com/company/amit-learning/posts/?feedView=all) for the assistance and guidance during the development of this project.
 
 ## Contact & Feedback
 
